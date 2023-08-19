@@ -57,24 +57,23 @@ Acesse o Diretório do Projeto:
 
 Navegue até o diretório do projeto clonado:
 
-bash
-Copy code
+```bash
 cd devops-projeto1
+
 Inicie a Máquina Virtual:
 
 Inicie a máquina virtual utilizando o Vagrant:
 
-bash
-Copy code
+```bash
 vagrant up
+
 Isso criará e provisionará a máquina virtual de acordo com o script do projeto.
 
 Provisione a Máquina Virtual:
 
 Após a inicialização da máquina virtual, faça o provisionamento utilizando o Vagrant:
 
-bash
-Copy code
+```bash
 vagrant provision
 Isso executará o script de criação de diretórios, grupos e usuários.
 
@@ -82,8 +81,7 @@ Verifique as Configurações:
 
 Verifique os grupos e usuários criados na máquina virtual:
 
-bash
-Copy code
+```bash
 vagrant ssh
 cat /etc/group
 cat /etc/passwd
