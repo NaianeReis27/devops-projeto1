@@ -51,7 +51,7 @@ Este projeto consiste na criação de uma estrutura de usuários, diretórios e 
 
    ```bash
    git clone https://github.com/NaianeReis27/devops-projeto1.git
-
+```
 
 Acesse o Diretório do Projeto:
 
@@ -59,14 +59,14 @@ Navegue até o diretório do projeto clonado:
 
 ```bash
 cd devops-projeto1
-
+```
 Inicie a Máquina Virtual:
 
 Inicie a máquina virtual utilizando o Vagrant:
 
 ```bash
 vagrant up
-
+```
 Isso criará e provisionará a máquina virtual de acordo com o script do projeto.
 
 Provisione a Máquina Virtual:
@@ -75,6 +75,7 @@ Após a inicialização da máquina virtual, faça o provisionamento utilizando 
 
 ```bash
 vagrant provision
+```
 Isso executará o script de criação de diretórios, grupos e usuários.
 
 Verifique as Configurações:
@@ -86,3 +87,4 @@ vagrant ssh
 cat /etc/group
 cat /etc/passwd
 exit
+```
