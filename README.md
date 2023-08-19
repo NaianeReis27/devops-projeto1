@@ -78,13 +78,3 @@ vagrant provision
 ```
 Isso executará o script de criação de diretórios, grupos e usuários.
 
-Verifique as Configurações:
-
-Verifique os grupos e usuários criados na máquina virtual:
-
-```bash
-vagrant ssh
-cat /etc/group
-cat /etc/passwd
-exit
-```
